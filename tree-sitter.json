@@ -1,0 +1,42 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "typhoon",
+      "camelcase": "Typhoon",
+      "title": "Typhoon",
+      "scope": "source.typhoon",
+      "file-types": [
+        "ty"
+      ],
+      "injection-regex": "^typhoon$",
+      "class-name": "TreeSitterTyphoon"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "Typhoon grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "koneko096",
+        "email": "afrizalf96@gmail.com",
+        "url": "https://koneko096.github.io"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/koneko096/tree-sitter-typhoon",
+      "funding": ""
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "java": false,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
